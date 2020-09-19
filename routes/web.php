@@ -20,3 +20,7 @@ Route::get('/', function () {
 });
 
 Route::resource('/articles', 'ArticleController')->only(['index'])->middleware('auth');
+
+//Bootstrapテンプレート
+Route::get('/parts/top', 'PartController@index')->name('parts.top');
+Route::get('/parts/about', 'PartController@show')->name('parts.about');
