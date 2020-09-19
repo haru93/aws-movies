@@ -23,7 +23,7 @@
         text-align: center;
         color: blue;
         font-family: 'Playfair Display', serif;
-        font-size: 50px;
+        font-size: 3vw;
     }
 
     .site-title {
@@ -31,7 +31,7 @@
         text-align: center;
         color: blue;
         font-family: 'Playfair Display', serif;
-        font-size: 70px;
+        font-size: 5vw;
     }
 
     .col-center {
@@ -42,9 +42,9 @@
 
 <div class="jumbotron jumbotron-extend">
     <div class="container-fluid jumbotron-container">
-        <h1 class="site-name">ノムラテクノ 様</h1>
-        <h1 class="site-title">動画配信プラットフォーム</h1>
-        <h3 class="site-name">- デモサイト -</h3>
+        <p class="site-name">ノムラテクノ 様</p>
+        <p class="site-title">動画配信プラットフォーム</p>
+        <p class="site-name">- デモサイト -</p>
         <div class="row justify-content-center">
             <div class="col col-center">
                 <a class="btn btn-primary" href="{{ route('login') }}" role="button">{{ __('messages.Login') }}</a>
