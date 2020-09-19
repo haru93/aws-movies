@@ -15,4 +15,8 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/', 'ArticleController@index')->name('articles.index');
+Route::get('/', function () {
+	return view('welcome');
+});
+
+Route::resource('/articles', 'ArticleController')->only(['index'])->middleware('auth');
