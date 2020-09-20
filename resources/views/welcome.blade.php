@@ -6,10 +6,8 @@
         position: relative;
         height: 85vh;
         min-height: 300px;
-        background-image: url("/img/teian.jpg");
-        background-repeat: no-repeat;
         background-size: cover;
-        background-color: white;
+        background-color: skyblue;
     }
 
     .jumbotron-container {
@@ -18,8 +16,12 @@
         transform: translateY(-50%);
     }
 
-    .col-center {
-        text-align: center;
+    h1 {
+        font-size: 5vw;
+    }
+
+    h2 {
+        font-size: 4vw;
     }
 </style>
 
@@ -33,10 +35,10 @@
                 <h1 class="text-white mb-4">動画配信プラットフォーム</h2>
             </div>
             <div class="row justify-content-center">
-                <h2 class="text-white mb-4">- デモサイト -</h3>
+                <h2 class="text-white mb-5">- デモサイト -</h3>
             </div>
             <div class="row justify-content-center">
-                <div class="col col-center">
+                <div class="col text-center">
                     <a class="btn btn-success" href="{{ route('login') }}" role="button">{{ __('messages.Login') }}</a>
                     <a class="btn btn-danger" href="{{ route('register') }}" role="button">{{ __('messages.Register') }}</a>
                 </div>
