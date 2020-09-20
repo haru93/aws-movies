@@ -18,37 +18,28 @@
         transform: translateY(-50%);
     }
 
-    .site-name {
-        margin-bottom: 40px;
-        text-align: center;
-        color: blue;
-        font-family: 'Playfair Display', serif;
-        font-size: 3vw;
-    }
-
-    .site-title {
-        margin-bottom: 40px;
-        text-align: center;
-        color: blue;
-        font-family: 'Playfair Display', serif;
-        font-size: 5vw;
-    }
-
     .col-center {
         text-align: center;
     }
-
 </style>
 
 <div class="jumbotron jumbotron-extend">
     <div class="container-fluid jumbotron-container">
-        <p class="site-name">ノムラテクノ 様</p>
-        <p class="site-title">動画配信プラットフォーム</p>
-        <p class="site-name">- デモサイト -</p>
-        <div class="row justify-content-center">
-            <div class="col col-center">
-                <a class="btn btn-primary" href="{{ route('login') }}" role="button">{{ __('messages.Login') }}</a>
-                <a class="btn btn-danger" href="{{ route('register') }}" role="button">{{ __('messages.Register') }}</a>
+        <div class="container">
+            <div class="row justify-content-center">
+                <h2 class="text-white mb-4">ノムラテクノ 様</h3>
+            </div>
+            <div class="row justify-content-center">
+                <h1 class="text-white mb-4">動画配信プラットフォーム</h2>
+            </div>
+            <div class="row justify-content-center">
+                <h2 class="text-white mb-4">- デモサイト -</h3>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col col-center">
+                    <a class="btn btn-success" href="{{ route('login') }}" role="button">{{ __('messages.Login') }}</a>
+                    <a class="btn btn-danger" href="{{ route('register') }}" role="button">{{ __('messages.Register') }}</a>
+                </div>
             </div>
         </div>
     </div>

@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
+<h2 class="bg-info text-center text-white py-3">{{ $category->name }}</h2>
 <div class="container">
-	<h2 class="bg-info text-center text-white py-3">{{ $category->name }}</h2>
 	@foreach ($articles->chunk(3) as $chunk)
 	<div class="row justify-content-left mt-5">
 		@foreach ($chunk as $article)

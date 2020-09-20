@@ -9,14 +9,6 @@
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
-    {{-- <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
-    <!-- Fonts -->
-    <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-    <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet"> --}}
-
     <!-- HLS -->
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
     <!-- Font Awesome -->
@@ -33,9 +25,6 @@
         <main>
             @yield('content')
         </main>
-        <footer class="p-3">
-
-        </footer>
     </div>
 
     <!-- JQuery -->
