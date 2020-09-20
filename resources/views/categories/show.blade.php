@@ -8,7 +8,7 @@
 		@foreach ($chunk as $article)
 		<div class="col-md-4">
 			<a href="{{ route('articles.show', compact('article')) }}" class="title-link">
-			<video width="320" height="240" preload="none" controls
+			<video width="320" height="240" preload="none" autoplay muted
 				src="{{ $article->movie }}">
 			</video>
 		</div>
