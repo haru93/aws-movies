@@ -19,7 +19,10 @@ Route::get('/', function () {
 	return view('welcome');
 });
 
-Route::resource('/articles', 'ArticleController')->only(['index'])->middleware('auth');
+Route::resource('/articles', 'ArticleController')->only(['create', 'store', 'show'])->middleware('auth');
+
+Route::resource('/categories', 'CategoryController')->only(['index', 'create', 'store'])->middleware('auth');
+Route::get('/categories/{id}', 'CategoryController@show')->name('categories.show')->middleware('auth');
 
 //Bootstrapテンプレート
 Route::get('/parts/top', 'PartController@index')->name('parts.top');

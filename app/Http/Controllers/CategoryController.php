@@ -3,10 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Article;
 use App\Category;
 
-class ArticleController extends Controller
+class CategoryController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,7 +14,9 @@ class ArticleController extends Controller
      */
     public function index()
     {
-        //
+        $categories = Category::all();
+
+        return view('categories.index', compact('categories'));
     }
 
     /**
@@ -25,9 +26,7 @@ class ArticleController extends Controller
      */
     public function create()
     {
-        $categories = Category::all();
-
-        return view('articles.create', compact('categories'));
+        return view('categories.create');
     }
 
     /**
@@ -38,9 +37,8 @@ class ArticleController extends Controller
      */
     public function store(Request $request)
     {
-        $article = new Article();
-        $article->category_id = $request->categories_id;
-        $article->fill($request->all())->save();
+        $category = new Category();
+        $category->fill($request->all())->save();
 
         return redirect()->route('categories.index');
     }
@@ -53,9 +51,10 @@ class ArticleController extends Controller
      */
     public function show($id)
     {
-        $article = Article::find($id);
+        $articles = Category::find($id)->articles;
+        $category = Category::find($id);
 
-        return view('articles.show', compact('article'));
+        return view('categories.show', compact('articles', 'category'));
     }
 
     /**
