@@ -26,7 +26,7 @@
 								{{ $article->created_at->format('Y.m.d') }}
 							</small>
 						</div>
-							{{ $article->body }}a
+							{{ $article->body }}
 					</div>
 				</div>
 				</div>
