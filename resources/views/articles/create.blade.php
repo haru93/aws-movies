@@ -31,6 +31,14 @@
                         </div>
 
                         <div class="form-group row">
+                            <label for="body" class="col-md-4 col-form-label text-md-right">動画の概要</label>
+
+                            <div class="col-md-6">
+                                <input id="body" type="text" class="form-control" name="body" placeholder='タイトルを入力'>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
                             <label for="category_id" class="col-md-4 col-form-label text-md-right">カテゴリー</label>
                             <div class="col-md-6">
                                 <select class="form-control" name="category_id" id="category_id">
