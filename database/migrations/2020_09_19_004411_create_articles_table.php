@@ -18,6 +18,7 @@ class CreateArticlesTable extends Migration
             $table->bigInteger('category_id')->unsigned();
             $table->foreign('category_id')->references('id')->on('categories');
             $table->string('name');
+            $table->string('image');
             $table->string('movie');
             $table->timestamps();
         });
