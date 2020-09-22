@@ -30,10 +30,18 @@
                             </div>
 
                             <div class="form-group row">
-                                <label for="image" class="col-md-4 col-form-label text-md-right">ページ画像</label>
+                                <label for="btnimage" class="col-md-4 col-form-label text-md-right">カテゴリーボタン画像</label>
     
                                 <div class="col-md-6">
-                                    <input id="image" type="text" class="form-control" name="image" placeholder='※デモ時はURLを入力'>
+                                    <input id="btnimage" type="text" class="form-control" name="btnimage" placeholder='※デモ時はURLを入力'>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label for="backimage" class="col-md-4 col-form-label text-md-right">ページ背景画像</label>
+    
+                                <div class="col-md-6">
+                                    <input id="backimage" type="text" class="form-control" name="backimage" placeholder='※デモ時はURLを入力'>
                                 </div>
                             </div>
 

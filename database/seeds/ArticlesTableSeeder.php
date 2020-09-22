@@ -12,7 +12,7 @@ class ArticlesTableSeeder extends Seeder
     public function run()
     {
         DB::table('articles')->insert([
-            'category_id' => 1,
+            'category_id' => 4,
             'name' => '山の風景',
             'body' => '展望台から見える景色です。',
             'image' => 'https://ntech-test-transcoder-out.s3-ap-northeast-1.amazonaws.com/HLS/fvc_test-00001/thumbnails/fvc-00001-192x108.png',
@@ -22,7 +22,7 @@ class ArticlesTableSeeder extends Seeder
         ]);
 
         DB::table('articles')->insert([
-            'category_id' => 1,
+            'category_id' => 4,
             'name' => '山の風景',
             'body' => '展望台から見える景色です。',
             'image' => 'https://ntech-test-transcoder-out.s3-ap-northeast-1.amazonaws.com/HLS/fvc_test-00001/thumbnails/fvc-00001-192x108.png',
@@ -32,7 +32,7 @@ class ArticlesTableSeeder extends Seeder
         ]);
 
         DB::table('articles')->insert([
-            'category_id' => 1,
+            'category_id' => 4,
             'name' => '山の風景',
             'body' => '展望台から見える景色です。',
             'image' => 'https://ntech-test-transcoder-out.s3-ap-northeast-1.amazonaws.com/HLS/fvc_test-00001/thumbnails/fvc-00001-192x108.png',
@@ -42,7 +42,7 @@ class ArticlesTableSeeder extends Seeder
         ]);
 
         DB::table('articles')->insert([
-            'category_id' => 1,
+            'category_id' => 4,
             'name' => '山の風景',
             'body' => '展望台から見える景色です。',
             'image' => 'https://ntech-test-transcoder-out.s3-ap-northeast-1.amazonaws.com/HLS/fvc_test-00001/thumbnails/fvc-00001-192x108.png',
@@ -52,7 +52,7 @@ class ArticlesTableSeeder extends Seeder
         ]);
 
         DB::table('articles')->insert([
-            'category_id' => 1,
+            'category_id' => 4,
             'name' => '山の風景',
             'body' => '展望台から見える景色です。',
             'image' => 'https://ntech-test-transcoder-out.s3-ap-northeast-1.amazonaws.com/HLS/fvc_test-00001/thumbnails/fvc-00001-192x108.png',
@@ -62,7 +62,7 @@ class ArticlesTableSeeder extends Seeder
         ]);
 
         DB::table('articles')->insert([
-            'category_id' => 1,
+            'category_id' => 4,
             'name' => '山の風景',
             'body' => '展望台から見える景色です。',
             'image' => 'https://ntech-test-transcoder-out.s3-ap-northeast-1.amazonaws.com/HLS/fvc_test-00001/thumbnails/fvc-00001-192x108.png',
@@ -72,7 +72,7 @@ class ArticlesTableSeeder extends Seeder
         ]);
 
         DB::table('articles')->insert([
-            'category_id' => 1,
+            'category_id' => 4,
             'name' => '山の風景',
             'body' => '展望台から見える景色です。',
             'image' => 'https://ntech-test-transcoder-out.s3-ap-northeast-1.amazonaws.com/HLS/fvc_test-00001/thumbnails/fvc-00001-192x108.png',
@@ -82,7 +82,7 @@ class ArticlesTableSeeder extends Seeder
         ]);
 
         DB::table('articles')->insert([
-            'category_id' => 1,
+            'category_id' => 4,
             'name' => '山の風景',
             'body' => '展望台から見える景色です。',
             'image' => 'https://ntech-test-transcoder-out.s3-ap-northeast-1.amazonaws.com/HLS/fvc_test-00001/thumbnails/fvc-00001-192x108.png',
