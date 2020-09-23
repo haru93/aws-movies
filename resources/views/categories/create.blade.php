@@ -22,10 +22,10 @@
                             @csrf
 
                             <div class="form-group row">
-                                <label for="name" class="col-md-4 col-form-label text-md-right">タイトル</label>
+                                <label for="name" class="col-md-4 col-form-label text-md-right">カテゴリー名</label>
 
                                 <div class="col-md-6">
-                                    <input id="name" type="text" class="form-control" name="name" placeholder='タイトルを入力'>
+                                    <input id="name" type="text" class="form-control" name="name" placeholder='カテゴリー名を入力'>
                                 </div>
                             </div>
 

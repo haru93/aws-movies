@@ -31,10 +31,10 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="body" class="col-md-4 col-form-label text-md-right">動画の概要</label>
+                            <label for="body" class="col-md-4 col-form-label text-md-right">概要</label>
 
                             <div class="col-md-6">
-                                <input id="body" type="text" class="form-control" name="body" placeholder='タイトルを入力'>
+                                <input id="body" type="text" class="form-control" name="body" placeholder='動画の概要を入力'>
                             </div>
                         </div>
 

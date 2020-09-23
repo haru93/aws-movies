@@ -52,6 +52,7 @@ class CategoryController extends Controller
     public function show($id)
     {
         $articles = Category::find($id)->articles;
+        $articles = $articles->reverse();
         $category = Category::find($id);
 
         return view('categories.show', compact('articles', 'category'));
