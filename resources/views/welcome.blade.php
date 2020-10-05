@@ -29,7 +29,7 @@
     <div class="container-fluid jumbotron-container">
         <div class="container">
             <div class="row justify-content-center">
-                <h2 class="text-white mb-4">ノムラテクノ 様</h3>
+                <h2 class="text-white mb-4">○○株式会社 様</h3>
             </div>
             <div class="row justify-content-center">
                 <h1 class="text-white mb-4">動画配信プラットフォーム</h2>
